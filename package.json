@@ -7,7 +7,8 @@
     "build": "npm run build:css",
     "watch:css": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
     "build:css": "tailwindcss -i ./src/input.css -o ./dist/output.css --minify",
-    "build:ts": "tsc"
+    "build:ts": "tsc",
+    "serve": "python3 -m http.server 8000"
   },
   "keywords": [],
   "author": "",
@@ -17,4 +18,3 @@
     "typescript": "^5.3.3"
   }
 }
-
