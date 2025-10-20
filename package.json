@@ -1,0 +1,20 @@
+{
+  "name": "hifiverkefni",
+  "version": "1.0.0",
+  "description": "OSON - Online Shopping Platform",
+  "scripts": {
+    "dev": "npm run watch:css",
+    "build": "npm run build:css",
+    "watch:css": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "build:css": "tailwindcss -i ./src/input.css -o ./dist/output.css --minify",
+    "build:ts": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.3.3"
+  }
+}
+

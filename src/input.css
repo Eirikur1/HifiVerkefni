@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-inter;
+  }
+}
+
+@layer utilities {
+  .font-rubik-vinyl {
+    font-family: "Rubik Vinyl", cursive;
+  }
+
+  .font-rubik-scribble {
+    font-family: "Rubik Scribble", cursive;
+  }
+
+  .font-roboto-mono {
+    font-family: "Roboto Mono", monospace;
+  }
+}
+
